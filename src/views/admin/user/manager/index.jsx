@@ -46,7 +46,7 @@ export default function UserManager (props) {
 
   //分页
   const [pagination, setPagination] = useState({
-    pageSize: 1,
+    pageSize: 10,
     current: 1,
     total: 0
   })
