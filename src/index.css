@@ -1,13 +1,32 @@
+/* 引入antd样式 */
+@import "~antd/dist/antd.css";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#root {
+  height: 100vh;
+  --content-width: 1000px;
+}
+[theme="light"] {
+  --bg-color: #fff;
+  --font-color: #000;
+  --border-color: rgba(0, 0, 0, 0.45);
+}
+[theme="dark"] {
+  --theme-bg: #000;
+  --theme-color: #fff;
+}
+/* 相邻按钮间距 */
+button + button {
+  margin-left: 1em;
 }

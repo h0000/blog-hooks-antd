@@ -1,0 +1,9 @@
+.appHeader {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 8px #f0f1f2;
+  .content{
+    width: var(--content-width);
+  }
+}

@@ -1,0 +1,14 @@
+.infoWrap {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  li {
+    padding: 0 1em;
+  }
+  li + li {
+    border-left: 1px solid var(--border-color);
+  }
+}

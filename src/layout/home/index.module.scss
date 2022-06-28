@@ -1,0 +1,12 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.contentWrap {
+  width: var(--content-width);
+  background-color: var(--bg-color);
+  margin: 2px auto;
+  padding-top: 3em;
+}

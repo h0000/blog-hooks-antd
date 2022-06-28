@@ -1,0 +1,20 @@
+.adminContainer {
+  background-color: aqua;
+  min-height: 100%;
+  .adminHeader {
+    // background-color: white;
+    padding: 0 2em;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .adminContent {
+    margin: 10px;
+    background-color: white;
+    padding: 1em;
+  }
+  .layoutSider {
+    background-color: white;
+  }
+}
